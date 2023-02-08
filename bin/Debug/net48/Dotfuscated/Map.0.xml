@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dotfuscatorMap SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscatorMap_v1.2.dtd">
+<dotfuscatorMap version="1.1">
+    <header>
+        <timestamp>2022-08-06T15:21:00</timestamp>
+        <product version="6.5.0+76d4669002" user="Troy Hughes">Dotfuscator Community</product>
+    </header>
+    <mapping>
+        <module>
+            <name>mcglowsticks.dinkumbetterspotting.dll</name>
+            <type>
+                <name>DinkumBetterDigSpotting.PluginInfo</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>string</signature>
+                        <name>PLUGIN_GUID</name>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>PLUGIN_NAME</name>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>PLUGIN_VERSION</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MyNewPlugin.Plugin</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.cctor</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>Awake</name>
+                        <newname>f</newname>
+                    </method>
+                    <method>
+                        <signature>UnityEngine.Texture2D(int32, int32, UnityEngine.Color)</signature>
+                        <name>MakeTex</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>OnGUI</name>
+                        <newname>d</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>Start</name>
+                        <newname>g</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>Update</name>
+                        <newname>e</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>initConfig</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>initStyles</name>
+                        <newname>b</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>locateBuriedItems</name>
+                        <newname>c</newname>
+                    </method>
+                    <method>
+                        <signature>void(bool)</signature>
+                        <name>setTimerVisible</name>
+                        <newname>a</newname>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;UnityEngine.GameObject&gt;</signature>
+                        <name>BuriedEntity</name>
+                        <newname>c</newname>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>announceScan</name>
+                        <newname>h</newname>
+                    </field>
+                    <field>
+                        <signature>float32</signature>
+                        <name>countDown</name>
+                        <newname>t</newname>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>deepWaterTreasure</name>
+                        <newname>q</newname>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>enableTimerVisibility</name>
+                        <newname>l</newname>
+                    </field>
+                    <field>
+                        <signature>UnityEngine.GameObject</signature>
+                        <name>go</name>
+                        <newname>f</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>hideTimerKey</name>
+                        <newname>o</newname>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>inSession</name>
+                        <newname>a</newname>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;UnityEngine.ParticleSystem&gt;</signature>
+                        <name>nearbyBuriedEntitys</name>
+                        <newname>d</newname>
+                    </field>
+                    <field>
+                        <signature>UnityEngine.Color</signature>
+                        <name>particleColour</name>
+                        <newname>s</newname>
+                    </field>
+                    <field>
+                        <signature>UnityEngine.Material</signature>
+                        <name>particleMaterial</name>
+                        <newname>g</newname>
+                    </field>
+                    <field>
+                        <signature>UnityEngine.Vector3</signature>
+                        <name>playerPos</name>
+                        <newname>m</newname>
+                    </field>
+                    <field>
+                        <signature>float32</signature>
+                        <name>renderDistance</name>
+                        <newname>r</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>resetKey</name>
+                        <newname>p</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>scanKey</name>
+                        <newname>n</newname>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>showTimer</name>
+                        <newname>k</newname>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>stopSpam</name>
+                        <newname>b</newname>
+                    </field>
+                    <field>
+                        <signature>UnityEngine.GUIStyle</signature>
+                        <name>textStyleAvailable</name>
+                        <newname>i</newname>
+                    </field>
+                    <field>
+                        <signature>UnityEngine.GUIStyle</signature>
+                        <name>textStyleUnAvailable</name>
+                        <newname>j</newname>
+                    </field>
+                    <field>
+                        <signature>System.Collections.Generic.List`1&lt;UnityEngine.Vector2&gt;</signature>
+                        <name>unburiedItems</name>
+                        <newname>e</newname>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MyNewPlugin.Plugin/&lt;&gt;c</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.cctor</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>bool(UnityEngine.GameObject)</signature>
+                        <name>&lt;locateBuriedItems&gt;b__24_0</name>
+                        <newname>a</newname>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>MyNewPlugin.Plugin/&lt;&gt;c</signature>
+                        <name>&lt;&gt;9</name>
+                    </field>
+                    <field>
+                        <signature>System.Func`2&lt;UnityEngine.GameObject,bool&gt;</signature>
+                        <name>&lt;&gt;9__24_0</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+        </module>
+    </mapping>
+    <statistics>
+        <statisticline>
+            <description>Total Classes</description>
+            <statistic>3</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Methods</description>
+            <statistic>14</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Fields</description>
+            <statistic>25</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Properties</description>
+            <statistic>0</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Events</description>
+            <statistic>0</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Classes Renamed</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Methods Renamed</description>
+            <statistic>10</statistic>
+            <statistic>71.43 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Fields Renamed</description>
+            <statistic>20</statistic>
+            <statistic>80.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Properties Renamed</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Events Renamed</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'a'</description>
+            <statistic>4</statistic>
+            <statistic>28.57 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'b'</description>
+            <statistic>1</statistic>
+            <statistic>7.14 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'c'</description>
+            <statistic>1</statistic>
+            <statistic>7.14 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'd'</description>
+            <statistic>1</statistic>
+            <statistic>7.14 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'e'</description>
+            <statistic>1</statistic>
+            <statistic>7.14 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'f'</description>
+            <statistic>1</statistic>
+            <statistic>7.14 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'g'</description>
+            <statistic>1</statistic>
+            <statistic>7.14 %</statistic>
+        </statisticline>
+    </statistics>
+</dotfuscatorMap>

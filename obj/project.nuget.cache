@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Bfl9kVPPMRQD2znhGwGd/uELo0bKH8C/RQZC3O6iy9a0kNmHVmt7nZtJLh9LbNvMH8OUKnJLq4fuw2BU6Xcgw==",
+  "success": true,
+  "projectFilePath": "D:\\Dinkum Mods\\DinkumBetterDigSpotting\\DinkumBetterDigSpotting\\MyNewPlugin\\DinkumBetterDigSpotting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yorts\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\yorts\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.2\\microsoft.netframework.referenceassemblies.net48.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
